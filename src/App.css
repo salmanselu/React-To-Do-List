@@ -1,0 +1,24 @@
+
+.task-input{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task-button{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task-list{
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: aqua;
+}
+
+.task{
+  flex: content;
+}
