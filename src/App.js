@@ -17,9 +17,12 @@ let addTask = () => {
   return (
     <div className="App">
       <div>
-        <input className="task-input" onChange={textChange} type="text"></input>
-        <button className="task-button" onClick={ addTask }>Add</button>
+        <div className="task-setter">
+          <input className="task-input" onChange={textChange} type="text"></input>
+          <button className="task-button" onClick={ addTask }>Add</button>
+        </div>
         <div className="task-list">
+          <div className="task-header">Tasks</div>
           {taskList.map(task=>{return <TaskCard task={task}/>})}
         </div>
       </div>

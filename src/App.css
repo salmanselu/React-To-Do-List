@@ -1,5 +1,9 @@
-
+.task-header{
+  font-size: larger;
+  font-weight: 900;
+}
 .task-input{
+  width: 20%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
